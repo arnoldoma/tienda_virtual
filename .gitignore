@@ -1,6 +1,8 @@
-.htaccess
-index.php
+Assets/
 Config/*
+
 Controllers/*
 Libraries/*
 Models/*
+index.php
+.htaccess
