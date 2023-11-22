@@ -1,8 +1,5 @@
 Assets/
 Config/*
 
-Controllers/*
-Libraries/*
-Models/*
+../Home.php
 index.php
-.htaccess
