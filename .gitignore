@@ -1,4 +1,4 @@
-/Config
-/Controllers
-/Libraries
-/Models
+Config/
+Controllers/
+Libraries/
+Models/
