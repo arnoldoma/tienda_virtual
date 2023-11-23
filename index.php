@@ -24,6 +24,7 @@ if (!empty($arrUrl[1])) {
     $method = $arrUrl[1];
   }
 }
+
 // Validamos el array parametros
 if (!empty($arrUrl[2])) {
   if ($arrUrl[2] != "") {
@@ -31,7 +32,7 @@ if (!empty($arrUrl[2])) {
       $params .= $arrUrl[$i] . ',';
     }
     // Removemos el ultimo caracter de la cadena ","
-    $params = trim($params, ",");
+    $params = trim($params, ',');
 
     // echo $params;
   }

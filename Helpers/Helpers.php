@@ -4,6 +4,12 @@ function base_url()
 {
   return BASE_URL;
 }
+
+// Concatenamos la ruta media con la carpeta para evitar errores en la escritura de la url.
+function media()
+{
+  return BASE_URL . "/Assets";
+}
 // Muestra la informacion o los array formateada
 function dep($data)
 {

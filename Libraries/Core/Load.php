@@ -1,6 +1,13 @@
 <?php
+
+// Convertimos la primera letra del controlador en MAYUSCULA
+// Porque genera error en algunos servidores por la primera Letra en esta en MINUSCULA
+$controller = ucwords($controller);
+
 // Autocarga del los controllers
 $controllerFile = "Controllers/" . $controller . ".php";
+
+
 // Validacion si existe controlador
 if (file_exists($controllerFile)) {
 
